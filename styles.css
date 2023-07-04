@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Merriweather, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .delani-intro {
   /* position: relative; */
@@ -11,13 +11,30 @@
   align-items: center;
   background-image: url(/assets/backgrounds/h_img.jpg);
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   color: #fff;
-  padding-top: 16%;
+  padding-top: 12%;
+  line-height: 2rem;
 }
 .delani-logo {
-  
+  padding-bottom: 2.5%;
+}
+.intro-text1 {
+  padding-bottom: 2.5%;
+}
+.intro-text2 {
+  padding-bottom: 2.3%;
+}
+.intro-text3 {
+  font-size: larger;
+  padding-bottom: 8%;
+}
+.delani-intro h1 {
+  font-weight:bolder;
+  font-size: 3.5rem;
+}
+.mouse-icon {
+  padding-bottom: 3.5%;
 }
